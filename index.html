@@ -3,14 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <title>Astro Weight Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <div class="lds-hourglass"></div>
 <div id="main">
       <h1>Astro Weight Calculator</h1>
       <br/>
-    <div class="row content">
-      <div class="col-sm-6">
+    <div class="row" id="container">
+      <div class="col-md-6">
       <div class="card user-info" style="width: 14rem;">
         <input id="user-weight" type="text" placeholder="Weight (lbs)" />
         <br>
